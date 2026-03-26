@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faComment, faXmark } from "@fortawesome/free-solid-svg-icons";
-import { Button } from "./UI.jsx";
+import { Button } from "./Ui.jsx";
 
 let BACKEND = "https://start-upch.onrender.com/chat"; /* 내 서버주소 넣기 랜더주소 */
 /* BACKEND="http://127.0.0.1:8000/chat" */
